@@ -10,11 +10,22 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Framework: BlueCubes",
-        "groups": [
+        "tab": "BlueCube Framework",
+        "pages": [
+          "introduction-to-blue-cubes",
           {
-            "group": "Get Started",
-            "pages": ["introduction"]
+            "group": "Cube #1: Workforce Planning",
+            "pages": [
+              "cube-1-how-do-we-plan-for-the-future",
+              "cube-1-workforce-planning-model-1"
+            ]
+          },
+          {
+            "group": "Cube #2: Load Balancing",
+            "pages": [
+              "cube-2-how-do-we-load-balance",
+              "cube-2-load-balancing-model-1"
+            ]
           }
         ]
       }
