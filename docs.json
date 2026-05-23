@@ -23,12 +23,18 @@
             "expanded": true
           },
           {
-            "group": "Cube #2: Load Balancing",
+            "group": "Cube #2: Requisition Personas",
             "pages": [
               "cube-2-load-balancing",
               "cube-2-load-balancing-model-1"
             ],
             "expanded": true
+          },
+          {
+            "group": "Cube #3: Load Balancing",
+            "pages": [
+              "how-do-we-load-balance"
+            ]
           }
         ]
       }

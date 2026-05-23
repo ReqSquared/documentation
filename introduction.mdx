@@ -1,7 +1,3 @@
----
-title: "Introduction"
----
-
 BlueCube is the framework for Talent Acquisition decision intelligence, built on composable analytical primitives that produce explainable Health Scores on every requisition.
 
 ## One BlueCube
@@ -67,7 +63,20 @@ A single BlueCube does one analytical job. Composition is where the framework ge
 
 Three bespoke cubes wired together below produce the full Air Traffic Controller for Open Requisitions. Each cube does its job. Each cube's output flows into the next cube. The final cube produces the operational Health Score that lands on the open requisition record.
 
-![Blue Cube Three](/images/blue_cube_three.png)
+<img
+  src="/images/blue_cube_three_1.png"
+  alt="Blue Cube Three"
+  lightAlt="Blue Cube Three"
+  darkAlt="Blue Cube Three"
+  className="dark:hidden"
+/>
+<img
+  src="images/blue_cube_three_1.png"
+  alt="Blue Cube Three"
+  lightAlt="Blue Cube Three"
+  darkAlt="Blue Cube Three"
+  className="hidden dark:block"
+/>
 
 ### What Flows Between Cubes
 
@@ -115,7 +124,7 @@ The pattern is consistent across the methodology:
 
 Standard Talent Acquisition analytics operates at the descriptive layer. Counts, conversion rates, time-to-fill averages, recruiter productivity by hire volume. Dashboards render the numbers. Operators interpret them. Decisions get made on gut feel plus dashboard glances.
 
-The example Air Traffic Controller for Open Requisitions takes the Headcount Optimization signal, feeds it into the Load Balancer to run req-to-recruiter allocation, and produces per-req explainable recommendations that lands on the requisition record as a custom object.
+The example Air Traffic Controller for Open Requisitions takes the Workforce Planning Cube, feeds it into the Requisition Persona Cube, and produces per-req explainable recommendations that lands on the requisition record as a custom object.
 
 A dashboard reports out on the BlueCube created field.\
 
