@@ -37,6 +37,10 @@
             ]
           }
         ]
+      },
+      {
+        "tab": "DEMO",
+        "href": "https://reqsquared.com"
       }
     ]
   },
